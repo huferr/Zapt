@@ -1,14 +1,14 @@
 @media screen and (max-width: 960px) {
-    .hamburguer-menu-container {
-        width: 24px;
-        height: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-  
-    .hamburguer-menu {
+  .hamburguer-menu-container {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .hamburguer-menu {
     width: 18px;
     height: 2px;
     background: #4d4d4d;
