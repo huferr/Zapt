@@ -14,11 +14,14 @@
   <body>
     <header class="header-container">
       <div class="start-block">
-        <div class="hamburguer-menu"></div>
-        <div class="background-menu">
-          <aside class="sidebar-menu">
-            <div class="sidebar-info-container">
-              <ul class="sidebar-list">
+        <div class='hamburguer-menu-container' id="hamburguer-menu-container">
+          <div class="hamburguer-menu"></div>
+        </div>
+        
+        <div class="background-menu" id="background-menu"></div>
+          <aside class="sidebar-menu" id="sidebar-menu">
+            <div class="sidebar-info-container" id="sidebar-info-container">
+              <ul class="sidebar-list" id="sidebar-list">
                 <li>
                   <p>Entre para acompanhar suas compras, receber ofertas, ou criar ofertas.</p>
                 </li>
@@ -46,7 +49,6 @@
               </ul>
             </div>
           </aside>
-        </div>
       </div>
       <button class="logo-button">
         <img src="./images/logo.png" alt="Zapt" />
@@ -173,5 +175,6 @@
         <img src="./images/chat.png" alt="" />
       </a>
     </button>
+    <script src="./scripts/sidebar.js"></script>
   </body>
 </html>

@@ -1,5 +1,14 @@
 @media screen and (max-width: 960px) {
-  .hamburguer-menu {
+    .hamburguer-menu-container {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+  
+    .hamburguer-menu {
     width: 18px;
     height: 2px;
     background: #4d4d4d;
@@ -28,6 +37,8 @@
     position: fixed;
     top: 0;
     left: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
   }
 
   .sidebar-menu {
@@ -36,9 +47,14 @@
     height: 100%;
     background: #fff;
     top: 0;
-    left: 0;
+    left: -290px;
     z-index: 100;
     box-shadow: 4px 1px 50px 1px;
+    transition: all 0.3s ease;
+  }
+
+  .active {
+    left: 0;
   }
 
   .sidebar-info-container {
