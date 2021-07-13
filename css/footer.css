@@ -88,6 +88,7 @@
   .footer-container {
     flex-direction: column;
     width: 100%;
+    margin-top: 80px;
   }
 
   .footer-infos-container {
