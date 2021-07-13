@@ -1,3 +1,7 @@
+.sidebar-info-container {
+    visibility: hidden;
+}
+
 @media screen and (max-width: 960px) {
   .hamburguer-menu-container {
     width: 24px;
@@ -60,6 +64,7 @@
   .sidebar-info-container {
     padding: 16px 0;
     width: 100%;
+    visibility: visible;
   }
 
   .sidebar-list {
@@ -128,6 +133,4 @@
   }
 }
 
-.sidebar-info-container {
-    display: none;
-}
+
