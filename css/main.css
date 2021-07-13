@@ -130,3 +130,52 @@
   box-shadow: 0px 2px 8px 1px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 960px) {
+  .hero-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+  }
+
+  .hero {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero button {
+    margin: 32px 0;
+    color: #fff;
+    font-size: 14px;
+    background-color: #011fbb;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .gif-container {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  .gif-container img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .info-container-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
