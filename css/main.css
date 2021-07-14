@@ -69,6 +69,10 @@
   margin: 80px 0;
 }
 
+.info-container {
+  margin-top: 80px;
+}
+
 .info-container h3 {
   color: #000;
   font-size: 30px;

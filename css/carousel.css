@@ -1,0 +1,110 @@
+.carousel-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.carousel-items-container {
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.prev, .next {
+    cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: 43px;
+  height: 43px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.5s;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
+
+.prev {
+    left: 0;
+    padding: 10px 15px;
+}
+
+.next {
+    right: 0;
+    padding: 10px 17px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #000;
+}
+
+.carousel-container h4 {
+    font-size: 30px;
+    color: #000;
+}
+
+.carousel-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    margin: 16px;
+}
+
+.carousel-image-container {
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.carousel-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.carousel-item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 124px;
+}
+
+.carousel-item-details p {
+    color: #000;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.carousel-item-details span {
+    font-size: 12px;
+    line-height: 1.66;
+    font-weight: 400;
+}
+
+.carousel-item-details button {
+  color: #fff;
+  font-size: 14px;
+  background-color: #011fbb;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 36px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 8px;
+}
+
+.carousel-item-details button:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.514);
+  background-color: #001997;
+}
